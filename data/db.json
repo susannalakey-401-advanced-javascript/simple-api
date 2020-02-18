@@ -1,6 +1,19 @@
 {
-  "categories": {},
-  "products": {
-    "name": "Banana"
-  }
+  "categories": [
+    {
+      "id": 1,
+      "name": "Susanna",
+      "display_name": "slakey",
+      "description": "sample description"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": "Susanna",
+      "name": "person",
+      "display_name": "slakey",
+      "description": "human being"
+    }
+  ]
 }
