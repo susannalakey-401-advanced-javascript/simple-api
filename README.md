@@ -3,7 +3,7 @@
 ### Author: Susanna Lakey
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/susannalakey-401-advanced-javascript/simple-api/pull/1)
 
 
 #### Documentation
