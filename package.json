@@ -1,0 +1,25 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "httpie": "^1.1.2",
+    "jest": "^25.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susannalakey-401-advanced-javascript/simple-api.git"
+  },
+  "author": "Susanna Lakey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susannalakey-401-advanced-javascript/simple-api/issues"
+  },
+  "homepage": "https://github.com/susannalakey-401-advanced-javascript/simple-api#readme"
+}
