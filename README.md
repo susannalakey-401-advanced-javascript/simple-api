@@ -13,12 +13,17 @@
 ### Setup
 * `npm install json-server`
 * `npm install httpie`
+* `npm install cors morgan dotenv mongoose @code-fellows/supergoose mongodb`
 
 #### How to initialize/run your server app (where applicable)
-* e.g. `npm start`
+* `npm start`
   
 #### Tests
 * `npm test`
+
+
+#### Stat mongo server
+* `mongod --dbpath ./db`
 
 #### UML
 ![Lab 06 UML](assets/lab-06-UML.jpg)
