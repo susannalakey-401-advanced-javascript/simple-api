@@ -1,9 +1,13 @@
-const supergoose = require('@code-fellows/supergoose');
-const { server } = require('/../src/app');
-const mockRequest = supergoose(server);
+// const supergoose = require('@code-fellows/supergoose');
+// const { server } = require('/../src/app');
+// const mockRequest = supergoose(server);
 
-describe('the server', () => {
-  it('can add a new product', () => {
+// describe('the server', () => {
+//   it('can add a new product', () => {
 
-  });
+//   });
+// });
+
+it('can add a new product', () => {
+
 });

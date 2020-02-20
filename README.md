@@ -3,7 +3,7 @@
 ### Author: Susanna Lakey
 
 ### Links and Resources
-* [submission PR](https://github.com/susannalakey-401-advanced-javascript/simple-api/pull/1)
+* [submission PR](https://github.com/susannalakey-401-advanced-javascript/simple-api/compare/simple-api?expand=1)
 
 
 #### Documentation
@@ -27,3 +27,4 @@
 
 #### UML
 ![Lab 06 UML](assets/lab-06-UML.jpg)
+![Lab 08 UML](assets/lab-08-UML.jpg)
