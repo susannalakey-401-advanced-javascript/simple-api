@@ -11,7 +11,7 @@ const handle500error = require('./middleware/error500.js');
 
 // middleware
 app.use(express.json());
-app.use(morgan('dev')); // 
+app.use(morgan('dev'));
 app.use(cors());
 
 

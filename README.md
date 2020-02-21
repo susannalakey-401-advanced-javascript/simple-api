@@ -25,6 +25,11 @@
 #### Stat mongo server
 * `mongod --dbpath ./db`
 
+#### Tasks to complete:
+* Request hangs when using an invalid id on a path
+* error handlers don't appear to do anything
+* tests on app.js 
+
 #### UML
 ![Lab 06 UML](assets/lab-06-UML.jpg)
 ![Lab 08 UML](assets/lab-08-UML.jpg)

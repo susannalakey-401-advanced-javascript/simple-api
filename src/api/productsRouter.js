@@ -1,5 +1,4 @@
 const express = require('express');
-const handle404error = require('../middleware/error404.js');
 
 const Products = require('../models/products');
 const products = new Products;

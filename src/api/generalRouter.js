@@ -38,9 +38,9 @@ function createItems(type) {
 
 function deleteItems(type) {
   return async (req, res, next) => {
-    const deleted = await type.delete(req.params.id);
-    res.status(204).json(deleted);
-  }
+    await type.delete(req.params.id);
+    res.status(204).json(undefined);
+  };
 
 }
 
