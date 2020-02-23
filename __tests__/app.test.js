@@ -80,8 +80,8 @@ describe('the server', () => {
         });
     });
 
-    it('can get a list of one entry', () => {
-      mockRequest
+    it('can get a list of one entry', async () => {
+      await mockRequest
         .post('/products/5e51d82b5cbbefa0f83fa96c')
         .send(newProduct);
       return mockRequest
@@ -92,14 +92,14 @@ describe('the server', () => {
         });
     });
 
-    it('can update a single product entry', async () => {
+    it('can update a single product entry', () => {
       const updateEntry = {
         category: 'fruit',
         name: 'banana',
         id: '5e51d82b5cbbefa0f83fa96c',
       };
 
-      return await mockRequest
+      return mockRequest
         .put(`/products/${updateEntry.id}`)
         .send(updateEntry)
         .then(results => {
@@ -108,10 +108,10 @@ describe('the server', () => {
     });
 
     it('deletes an entry when making a DELETE request to /products/:id', async () => {
-      mockRequest
+      await mockRequest
         .post('/products')
         .send(newProduct);
-      return await mockRequest
+      await mockRequest
         .delete('/products/5e51d82b5cbbefa0f83fa96c')
         .then(results => {
           expect(results.status).toBe(204);
@@ -154,8 +154,8 @@ describe('the server', () => {
           });
       });
 
-      it('can get a list of one entry', () => {
-        mockRequest
+      it('can get a list of one entry', async () => {
+        await mockRequest
           .post('/categories/5e51d82b5cbbefa0f83fa96c')
           .send(newCategory);
         return mockRequest
@@ -173,7 +173,7 @@ describe('the server', () => {
           id: '5e51d82b5cbbefa0f83fa96c',
         };
 
-        return await mockRequest
+        return mockRequest
           .put(`/categories/${updateEntry.id}`)
           .send(updateEntry)
           .then(results => {
@@ -182,10 +182,10 @@ describe('the server', () => {
       });
 
       it('deletes an entry when making a DELETE request to /categories/:id', async () => {
-        mockRequest
+        await mockRequest
           .post('/categories')
           .send(newCategory);
-        return await mockRequest
+        return mockRequest
           .delete('/categories/5e51d82b5cbbefa0f83fa96c')
           .then(results => {
             expect(results.status).toBe(204);
