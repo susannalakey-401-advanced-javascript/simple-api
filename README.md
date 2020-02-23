@@ -3,7 +3,7 @@
 ### Author: Susanna Lakey
 
 ### Links and Resources
-* [submission PR](https://github.com/susannalakey-401-advanced-javascript/simple-api/compare/simple-api?expand=1)
+* [submission PR](https://github.com/susannalakey-401-advanced-javascript/simple-api/pull/2)
 
 
 #### Documentation
@@ -24,11 +24,6 @@
 
 #### Stat mongo server
 * `mongod --dbpath ./db`
-
-#### Tasks to complete:
-* Request hangs when using an invalid id on a path
-* error handlers don't appear to do anything
-* tests on app.js 
 
 #### UML
 ![Lab 06 UML](assets/lab-06-UML.jpg)
