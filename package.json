@@ -4,13 +4,27 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@code-fellows/supergoose": "^1.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "eslint": "^6.8.0",
+    "express": "^4.17.1",
     "httpie": "^1.1.2",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "mongodb": "^3.5.3",
+    "mongoose": "^5.9.1",
+    "morgan": "^1.9.1",
+    "supertest": "^4.0.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest --coverage --verbose"
+    "test": "jest --coverage --verbose",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test-watch": "jest --watchAll --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "repository": {
     "type": "git",

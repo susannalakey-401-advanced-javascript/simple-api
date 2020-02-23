@@ -3,7 +3,7 @@
 ### Author: Susanna Lakey
 
 ### Links and Resources
-* [submission PR](https://github.com/susannalakey-401-advanced-javascript/simple-api/pull/1)
+* [submission PR](https://github.com/susannalakey-401-advanced-javascript/simple-api/pull/2)
 
 
 #### Documentation
@@ -13,12 +13,18 @@
 ### Setup
 * `npm install json-server`
 * `npm install httpie`
+* `npm install cors morgan dotenv mongoose @code-fellows/supergoose mongodb`
 
 #### How to initialize/run your server app (where applicable)
-* e.g. `npm start`
+* `npm start`
   
 #### Tests
 * `npm test`
 
+
+#### Stat mongo server
+* `mongod --dbpath ./db`
+
 #### UML
 ![Lab 06 UML](assets/lab-06-UML.jpg)
+![Lab 08 UML](assets/lab-08-UML.jpg)
