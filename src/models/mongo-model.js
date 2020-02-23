@@ -15,7 +15,6 @@ class Model {
   read(id) {
     const returnValue = id ? { _id: id } : {};
     return this.Schema.find(returnValue);
-
   }
 
   update(id, record) {

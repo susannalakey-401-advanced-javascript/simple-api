@@ -20,9 +20,9 @@ app.use(productsRouter);
 app.use(categoriesRouter);
 
 // Error handlers
+
 app.use(handle404error);
 app.use(handle500error);
-
 
 module.exports = {
   server: app,
